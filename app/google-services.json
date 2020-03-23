@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "470747130842",
+    "firebase_url": "https://quizapp-7468b.firebaseio.com",
+    "project_id": "quizapp-7468b",
+    "storage_bucket": "quizapp-7468b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470747130842:android:dd867ac61cb2b511682ee3",
+        "android_client_info": {
+          "package_name": "com.opriday.islamicquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470747130842-r67hkbcuav7utc88857kdrjb1bpl34rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.opriday.islamicquiz",
+            "certificate_hash": "dc041e404608b51a0974283ba721acb5cc16fb9a"
+          }
+        },
+        {
+          "client_id": "470747130842-i2ikdmgp3381p5d2o85ggl100f8pralb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtNtmlIVTas2XIjwjbl0EWWq6OIT4TMYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470747130842-i2ikdmgp3381p5d2o85ggl100f8pralb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

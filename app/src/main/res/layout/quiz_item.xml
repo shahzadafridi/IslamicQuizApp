@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/quiz_item_numbere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monestro_medium"
+        android:text="1"
+        android:visibility="visible"
+        android:textColor="#99000000"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:id="@+id/quiz_item_status_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/quiz_item_status_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/correct_icon"/>
+
+        <TextView
+            android:id="@+id/quiz_item_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="@font/monestro_bold"
+            android:gravity="center_vertical"
+            android:text="Correct Answer"
+            android:textColor="@color/correct"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/quiz_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/monestro_medium"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/quiz_item_option1_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:fontFamily="@font/monestro_medium"
+            android:text=""/>
+
+        <RadioButton
+            android:id="@+id/quiz_item_option2_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:fontFamily="@font/monestro_medium"
+            android:text=""/>
+
+        <RadioButton
+            android:id="@+id/quiz_item_option3_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:fontFamily="@font/monestro_medium"
+            android:text=""/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/quiz_item_correctOPtion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monestro_bold"
+        android:layout_marginTop="16dp"
+        android:text="Option 1 is correct answer"
+        android:visibility="invisible"
+        android:textColor="#E4000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+</LinearLayout>
