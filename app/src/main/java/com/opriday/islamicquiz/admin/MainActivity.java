@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void InitUI() {
-        progressBar = (ProgressBar) findViewById(R.id.progressBar_home);
+        progressBar = (ProgressBar) findViewById(R.id.progressBar_mainAct);
         logout = (ImageView) findViewById(R.id.logout_img);
         addCategory = (LinearLayout) findViewById(R.id.linearLayout_1);
         addQuiz = (LinearLayout) findViewById(R.id.linearLayout_2);
@@ -130,5 +130,11 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("category",json);
         editor.apply();
         Log.e(TAG,"Category updated in session.");
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        this.moveTaskToBack(true);
     }
 }
