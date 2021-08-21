@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
-//test jenkins
+//test jenkins test
 
 android {
     compileSdkVersion 29
